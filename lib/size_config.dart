@@ -18,14 +18,14 @@ class SizeConfig {
 // Get the proportionate height as per screen size
 double getProportionateScreenHeight(double inputHeight) {
   double screenHeight = SizeConfig.screenHeight;
-  // Our designer use iPhone 11 , that's why we use 896.0
+  // The designer use iPhone 11 , that's why  896.0
   return (inputHeight / 896.0) * screenHeight;
 }
 
 // Get the proportionate height as per screen size
 double getProportionateScreenWidth(double inputWidth) {
   double screenWidth = SizeConfig.screenWidth;
-  // 414 is the layout width that designer use or you can say iPhone 11  width
+  // 414 is the layout width that designer use or we can say iPhone 11  width
   return (inputWidth / 414.0) * screenWidth;
 }
 
