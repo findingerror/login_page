@@ -10,6 +10,7 @@
       <stop offset="0.868" stop-color="#0d0d0d"/>
       <stop offset="0.95" stop-color="#121212"/>
       <stop offset="1"/>
+
     </radialGradient>
   </defs>
   <ellipse id="Glow" cx="179.247" cy="178.879" rx="179.247" ry="178.879" fill="url(#radial-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
